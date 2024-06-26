@@ -1,0 +1,27 @@
+.corpo {
+    padding: 20px;
+    background-color: #f0f0f0;
+    max-width: 95%;
+  }
+  
+  .listapokemons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .pokemons{
+    padding: 20px;
+    width: 10vw;
+    background-color: #ffe100af;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    font-size: 1.5em;
+    text-align: center;
+    color: #000000;
+  }
+  
+  .pokemons:hover {
+    background-color: #f9f9f9;
+    border-color: #ccc;
+  }
+  
